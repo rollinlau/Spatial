@@ -1,0 +1,12 @@
+# Site settings
+title: Spatial
+email: ""
+description: > # this means to ignore newlines until "baseurl:"
+  Site for the Spatial web application.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "spatial.github.io" # the base hostname & protocol for your site
+twitter_username: spatial
+
+# Build settings
+markdown: kramdown
+permalink: pretty
