@@ -1,0 +1,27 @@
+{
+  "name": "SpatialApp",
+  "description": "A web application that shows users at-a-glance information about what's around them.",
+  "main": "server.js",
+  "authors": [
+    "asmalldev <asmalldev@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "spatialapp.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.5.0",
+    "angularjs-geolocation": "^0.1.1",
+    "bootstrap": "^3.3.6",
+    "modernizr": "^3.3.1"
+  }
+}
