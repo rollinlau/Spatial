@@ -1,0 +1,13 @@
+{
+    "name" : "SpatialApp",
+    "main" : "server.js",
+    "description" : "A web application that shows users at-a-glance information about what's around them.",
+    "license" : "MIT",
+    "dependencies" : {
+        "express" : "latest",
+        "mongoose" : "latest",
+        "morgan" : "latest",
+        "body-parser" : "latest",
+        "jsonwebtoken" : "latest"
+    }
+}
