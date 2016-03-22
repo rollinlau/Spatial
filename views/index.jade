@@ -1,0 +1,20 @@
+extends layout
+
+block content
+    //- form
+    //-     div.form_sub
+    //-         div.form_section
+    //-             span Where are you?
+    //-             button &#8594;
+    //-             textarea(type="text", placeholder="Buswell St. Boston, MA")
+    div#content()
+    //- div#footer &copy;SpatialApp
+    script(type='text/javascript').
+        mapboxgl.accessToken = 'pk.eyJ1IjoiYXNtYWxsZGV2IiwiYSI6ImNpa3JnZG5sdTAxN3N1YWx3ZjI1enhjdWIifQ.QXBf8BDjJbLE4CAPYPqMsg'
+        var map = new mapboxgl.Map({
+            container: 'content',
+            style: 'mapbox://styles/mapbox/streets-v8',
+            center: [-71.10, 42.34],
+            minZoom: 12,
+            zoom: 13
+        });
