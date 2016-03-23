@@ -6,22 +6,22 @@ var Schema      = mongoose.Schema;
 
 // Event Schema
 var EventSchema = new Schema({
-    title: {type: String, required: true},
+    title: {type: String, required: false},
     description: {type: String, required: false},
-    address: {type : String, required: true},
-    venue: {type : String, require: true},
-    city: {type: String, required: true},
-    region: {type: String, required: true},
-    rc: {type: String, required: true},
-    country: {type: String, required: true},
-    cc: {type: String, required: true},
+    address: {type : String, required: false},
+    venue: {type : String, require: false},
+    city: {type: String, required: false},
+    region: {type: String, required: false},
+    rc: {type: String, required: false},
+    country: {type: String, required: false},
+    cc: {type: String, required: false},
     postal: {type: String, required: false},
-    latitude: {type: String, required: true},
-    longitude: {type: String, required: true},
-    start: {type: String, required: true},
-    stop: {type: String, required: true},
-    created: {type: String, required: true},
-    timezone: {type: String, required: true},
+    latitude: {type: String, required: false},
+    longitude: {type: String, required: false},
+    start: {type: String, required: false},
+    stop: {type: String, required: false},
+    created: {type: String, required: false},
+    timezone: {type: String, required: false},
     url: {type: String, required: false}
 });
 
