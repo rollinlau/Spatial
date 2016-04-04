@@ -52,7 +52,6 @@ router.post('/events', function(req, res, next) {
 router.get('/events', function(req, res, next) {
     EventSchema.find({}, function(err, results) {
         res.json(results);
-        console.log("render events");
     })
 });
 
