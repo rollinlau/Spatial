@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        title="Spatial App"
+        link(href="css/main.css", rel="stylesheet")
+        link(href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.15.0/mapbox-gl.css", rel="stylesheet")
+        script(src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.15.0/mapbox-gl.js")
+        script(src="../bower_components/angular/angular.js")
+        script(src="../bower_components/angular-route/angular-route.js")
+        script(src="../bower_components/angularjs-geolocation/dist/angularjs-geolocation.min.js")
+    body
+        header
+            div#logo_wrapper
+                a(href="#")
+                    img#logo(src="favicon.ico")
+            div#top_bar
+                ul
+                    li
+                        a(href="#") Sign in
+        div#side_bar
+            div.side_box
+                a(href="#") Filter
+            div.side_box
+                a(href="#") Filter
+            div.side_box
+                a(href="#") Filter
+        block content

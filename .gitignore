@@ -28,9 +28,18 @@ node_modules
 
 # Bower directory
 bower_components
+public/lib
 
 # Optional npm cache directory
 .npm
 
 # Optional REPL history
 .node_repl_history
+
+# Static Site stuff
+_site
+
+# config
+.config.json
+
+notes.txt
